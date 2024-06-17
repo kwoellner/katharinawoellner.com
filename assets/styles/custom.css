@@ -1,0 +1,320 @@
+/* inter-200 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/inter-v13-latin_latin-ext-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v13-latin_latin-ext-200.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-300 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v13-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v13-latin_latin-ext-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-regular - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v13-latin_latin-ext-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-500 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v13-latin_latin-ext-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v13-latin_latin-ext-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-700 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v13-latin_latin-ext-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* Navigation */
+nav.navbar {
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav.navbar .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    margin-top: 30px;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #205d91 !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+    color: #17365d !important;
+}
+
+.navbar-nav .btn {
+    width: 250px;
+}
+
+.navbar-light .navbar-toggler {
+    position: fixed;
+    top: 20px;
+    border: none;
+    z-index: 2000;
+}
+
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler span:nth-child(1) {
+    display: none;
+    color: #1c345e;
+}
+
+.navbar-light .navbar-toggler span:nth-child(2) {
+    display: none;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler > label {
+    display: inline;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-toggler.collapsed {
+    position: relative;
+    top: 20px;
+}
+
+.navbar-light .navbar-toggler.collapsed span:nth-child(1) {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .navbar-light .navbar-toggler.collapsed span:nth-child(1) {
+        display: inline;
+    }
+
+    .navbar-light .navbar-toggler span:nth-child(2) {
+        display: inline;
+    }
+}
+
+.navbar-light .navbar-toggler.collapsed span:nth-child(2) {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+}
+
+#hamburger + label {
+    position: relative;
+    width: 45px;
+    height: 23px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+    transition: all .5s;
+    text-align: left;
+}
+
+#hamburger + label div,
+#hamburger + label div:before,
+#hamburger + label div:after {
+    background: #ffffff;
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    border-radius: 2px;
+    transition: all .5s;
+}
+
+.navbar-toggler.collapsed #hamburger + label div {
+    background: #687E8E;
+}
+
+#hamburger + label div:first-child {
+    top: 0;
+}
+
+#hamburger + label div:nth-child(2) {
+    top: 10px;
+    width: 45px
+}
+
+#hamburger + label div:nth-child(3) {
+    top: 20px;
+}
+
+#hamburger + label div {
+    transition: top .15s .17s, transform .12s .033s;
+}
+
+#hamburger + label div:nth-child(3) {
+    transition: top .15s .17s, transform .17s;
+}
+
+#hamburger:checked + label div {
+    top: 10px;
+    width: 30px;
+    transform: rotate(135deg);
+    transition: top .1s, transform .12s .1s;
+}
+
+#hamburger:checked + label div:nth-child(3) {
+    transform: rotate(225deg);
+    transition: top .1s, transform .17s .1s;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.nav.navbar .navbar-brand img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+.navbar-nav .nav-link:nth-child(5) {
+    padding-right: 0;
+}
+
+.navbar-collapse .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+}
+
+.navbar .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center !important;
+    background: #687e8e;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.navbar .navbar-collapse.collapse {
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.navbar .navbar-collapse.collapsing[style*="height"] {
+    height: 100vh !important;
+    opacity: 1;
+}
+
+.navbar .navbar-collapse.collapsing {
+    height: 100vh;
+    opacity: 0;
+}
+
+.navbar .navbar-collapse.collapse.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+    margin-top: 60px;
+    margin-right: initial !important;
+    margin-bottom: auto
+}
+
+@media (min-width: 576px) {
+    .navbar .navbar-collapse .navbar-nav {
+        margin-top: 100px;
+    }
+}
+
+.navbar .navbar-collapse .navbar-brand {
+    position: absolute;
+    left: 20px;
+}
+
+.navbar .navbar-collapse .navbar-close {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navbar .navbar-collapse .btn-close {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-16%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Ebene_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2020%2020%22%20style%3D%22enable-background%3Anew%200%200%2020%2020%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.st0%7Bfill%3Anone%3Bstroke%3A%23FFFFFF%3Bstroke-width%3A2%3Bstroke-linecap%3Around%3B%7D%3C%2Fstyle%3E%3Cline%20id%3D%22Linie_19%22%20class%3D%22st0%22%20x1%3D%2217.1%22%20y1%3D%222.9%22%20x2%3D%223%22%20y2%3D%2217%22%2F%3E%3Cline%20id%3D%22Linie_20%22%20class%3D%22st0%22%20x1%3D%223%22%20y1%3D%222.9%22%20x2%3D%2217.1%22%20y2%3D%2217%22%2F%3E%3C%2Fsvg%3E%0A');
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link:hover,
+.navbar .navbar-collapse .navbar-nav .nav-link:active {
+    color: #1265ea !important;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-left: initial !important;
+    }
+}
