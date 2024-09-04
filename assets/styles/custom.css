@@ -1,11 +1,38 @@
+/* inter-100 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/inter-v18-latin_latin-ext-100.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-100.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-100italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../fonts/inter-v18-latin_latin-ext-100italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-100italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
 /* inter-200 - latin_latin-ext */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
-    src: url('../fonts/inter-v13-latin_latin-ext-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-    url('../fonts/inter-v13-latin_latin-ext-200.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('../fonts/inter-v18-latin_latin-ext-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-200.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-200italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 200;
+    src: url('../fonts/inter-v18-latin_latin-ext-200italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-200italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* inter-300 - latin_latin-ext */
 @font-face {
@@ -13,8 +40,17 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/inter-v13-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-    url('../fonts/inter-v13-latin_latin-ext-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('../fonts/inter-v18-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-300italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/inter-v18-latin_latin-ext-300italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-300italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* inter-regular - latin_latin-ext */
 @font-face {
@@ -22,8 +58,17 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/inter-v13-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-    url('../fonts/inter-v13-latin_latin-ext-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('../fonts/inter-v18-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/inter-v18-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* inter-500 - latin_latin-ext */
 @font-face {
@@ -31,8 +76,35 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/inter-v13-latin_latin-ext-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-    url('../fonts/inter-v13-latin_latin-ext-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('../fonts/inter-v18-latin_latin-ext-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-500italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/inter-v18-latin_latin-ext-500italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-500italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-600 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v18-latin_latin-ext-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-600italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/inter-v18-latin_latin-ext-600italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-600italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* inter-700 - latin_latin-ext */
 @font-face {
@@ -40,8 +112,53 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/inter-v13-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-    url('../fonts/inter-v13-latin_latin-ext-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('../fonts/inter-v18-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-700italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/inter-v18-latin_latin-ext-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-700italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-800 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/inter-v18-latin_latin-ext-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-800italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../fonts/inter-v18-latin_latin-ext-800italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-800italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-900 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v18-latin_latin-ext-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-900.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* inter-900italic - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/inter-v18-latin_latin-ext-900italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/inter-v18-latin_latin-ext-900italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 html,
@@ -66,7 +183,7 @@ h3 {
     margin-bottom: 0;
     max-width: 640px;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 45px;
     text-align: center;
 }
@@ -86,6 +203,30 @@ h5 {
     line-height: 20px;
 }
 
+.btn {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.btn.btn-primary {
+    min-width: 220px;
+    border-radius: 30px;
+    color: #ffffff;
+    border-color: #687e8e;
+    background-color: #687e8e;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+    color: #ffffff;
+    background-color: #687e8e;
+    border-color: #687e8e;
+}
+
 .btn.btn-outline-primary {
     min-width: 220px;
     border-radius: 30px;
@@ -100,8 +241,8 @@ h5 {
 .btn.btn-outline-primary:focus,
 .btn.btn-outline-primary:active {
     color: #ffffff;
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #687e8e;
+    border-color: #687e8e;
 }
 
 .btn.btn-outline-secondary {
@@ -140,6 +281,16 @@ h5 {
     padding-bottom: 3px;
 }
 
+.link-previous:hover img {
+    margin-right: 1.5rem !important;
+    transition: 0.5s margin-right ease;
+}
+
+.link-next:hover img {
+    margin-left: 1.5rem !important;
+    transition: 0.5s margin-left ease;
+}
+
 /* Navigation */
 nav.navbar {
     margin-bottom: 0;
@@ -162,7 +313,6 @@ nav.navbar .navbar-collapse {
     line-height: 36px;
     font-weight: 300;
     letter-spacing: 2px;
-    text-transform: uppercase;
     color: #eeeeee !important;
 }
 
@@ -309,7 +459,7 @@ button:not(.collapsed) #hamburger + label span:nth-child(3) {
 
 nav.navbar .navbar-brand img {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     height: 40px;
 }
 
@@ -424,6 +574,12 @@ nav.navbar .navbar-brand span {
 }
 
 /* Sections */
+#welcome .fs-1 {
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 65px;
+}
+
 #vorteile h4 {
     font-size: 18px;
     font-weight: 500;
@@ -453,19 +609,23 @@ nav.navbar .navbar-brand span {
 }
 
 #vorteile ul {
-    padding-left: 1rem;
+    padding-left: 1.25rem;
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 16"><polygon fill="%23687E8E" points="6.3,14.9 -0.5,8 1.6,5.9 6.3,10.6 17.5,-0.6 19.6,1.5"/></svg>')
 }
 
-#vorteile ul >li::marker {
-    font-size: 30px;
+#vorteile ul > li {
+    font-style: italic;
+}
+
+#vorteile ul > li::marker {
+    font-size: 2.5rem;
 }
 
 #vorteile p,
 #vorteile ul > li {
     font-size: 18px;
     font-weight: 300;
-    line-height: 26px;
+    line-height: 30px;
 }
 
 #vorteile a[role="button"] {
@@ -494,7 +654,31 @@ nav.navbar .navbar-brand span {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"><path fill="none" d="M10.5,0.5c5.5,0,10,4.5,10,10s-4.5,10-10,10s-10-4.5-10-10S5,0.5,10.5,0.5z"/><path d="M14.3,10.3c0-0.4-0.3-0.7-0.7-0.7h-6c-0.4,0-0.8,0.3-0.8,0.8S7.1,11,7.5,11h6C13.9,11,14.2,10.7,14.3,10.3"/><path fill="%231D1D1B" d="M10.5,1.5c5,0,9,4,9,9s-4,9-9,9s-9-4-9-9S5.5,1.5,10.5,1.5 M10.5,0.5c-5.5,0-10,4.5-10,10s4.5,10,10,10 s10-4.5,10-10S16,0.5,10.5,0.5L10.5,0.5z"/></svg>');
 }
 
-#referenzen img:hover {
+#referenzen .col-md-6 a {
+    display: block;
+    overflow: hidden;
+}
+
+#referenzen div.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(104, 126, 142, 0.5);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+#referenzen .col-md-6:hover div.overlay {
+    display: flex;
+}
+
+#referenzen .col-md-6:hover img {
     animation: move 4s ease infinite;
     transform-origin: center center;
 }
@@ -573,6 +757,10 @@ nav.navbar .navbar-brand span {
     hyphens: auto;
 }
 
+#leistungen li::marker {
+    color: #687e8e;
+}
+
 #prozess {
     color: #ffffff;
     background-color: rgba(189, 200, 208, 0.2);
@@ -582,6 +770,7 @@ nav.navbar .navbar-brand span {
     --bs-accordion-btn-padding-y: 1.5rem;
     --bs-accordion-color: #000000;
     --bs-accordion-bg: transparent;
+    --bs-accordion-active-color: #000000;
     --bs-accordion-active-bg: transparent;
     --bs-accordion-btn-color: #000000;
     --bs-accordion-btn-bg: transparent;
@@ -599,6 +788,18 @@ nav.navbar .navbar-brand span {
 
 #prozess .accordion-item:last-child {
     border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+#prozess .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#prozess .accordion-body {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
 }
 
 #referenz p {
