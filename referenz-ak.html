@@ -57,7 +57,7 @@
                                 <a class="nav-link" href="index.html#referenzen">Referenzen</a>
                                 <a class="nav-link" href="index.html#leistungen">Leistungen</a>
                                 <a class="nav-link" href="index.html#prozess">Prozess</a>
-                                <a class="nav-link" href="index.html#kontakt">Kontakt</a>
+                                <a class="nav-link mb-4" href="index.html#kontakt">Kontakt</a>
                                 <div class="d-flex flex-column flex-md-row">
                                     <a class="btn btn-outline-secondary d-block mt-4 mt-lg-5 mb-3 me-0 me-md-2" href="tel:+4917664236557">Anrufen</a>
                                     <a class="btn btn-outline-secondary btn-arrow d-block mt-md-4 mt-lg-5 mb-3 ms-0 ms-md-2" href="mailto:mail@katharinawoellner.com" target="_blank">E-Mail</a>
@@ -72,19 +72,19 @@
 
     <section id="referenz">
         <div class="container">
-            <div class="row my-5">
+            <div class="row mt-3 mt-lg-5 mb-5">
                 <div class="col-12">
                     <img src="assets/images/referenzen/ak/ak-terminkarte.jpg" width="2560" height="1600" class="img-fluid" alt="">
                 </div>
             </div>
-            <div class="row my-5">
-                <div class="col-12 my-5">
+            <div class="row m-lg-5">
+                <div class="col-12 mt-lg-5">
                     <h3>»K« wie Wirbelsäule</h3>
                 </div>
             </div>
             <div class="row mb-5">
                 <div class="col-md-6 mt-5">
-                    <p class="mb-5">
+                    <p class="mb-30">
                         <strong>Dr. med. Andrea Kretschmer</strong><br>
                         Fachärztin für Orthopädie und Unfallchirurgie
                     </p>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col-md-6 mt-5">
                     <p class="mb-5">Für die orthopädische Praxis von Frau Dr. med. Andrea Kretschmer entwickelte ich ein einzigartiges Logo mit hohem Wiedererkennungswert, das aus dem Initial »K« und einer stilisierten Wirbelsäule besteht. Durch die bewusste Wahl von Schwarz-Weiß Bildern wird eine zeitlose Ästhetik erzeugt, während die blauen Akzente die Aufmerksamkeit auf relevante Bereiche lenken. Das Ergebnis ist ein visueller Auftritt, der die Praxis von anderen abhebt und eine starke und professionelle Identität vermittelt.</p>
-                    <p class="mb-0">&gt; <a href="https://www.ortho-kretschmer.de" target="_blank" class="link-underline-secondary">Website besuchen</a></p>
+                    <p class="mb-0"><a href="https://www.ortho-kretschmer.de" target="_blank" class="link-underline-secondary">Website besuchen</a></p>
                 </div>
             </div>
             <div class="row my-5 g-4">
@@ -121,15 +121,15 @@
                     <img src="assets/images/referenzen/kb/kb-3d.jpg" width="2560" height="1707" class="img-fluid" loading="lazy" alt="">
                 </div>
             </div>
-            <div class="row my-5">
+            <div class="row my-5 py-4">
                 <div class="col-4">
-                    <a href="referenz-kb.html" class="link-primary link-previous text-uppercase"><img src="assets/images/icon-arrow-previous.svg" width="30" class="me-3" alt="Previous">Previous</a>
+                    <a href="referenz-kb.html" class="link-primary link-previous text-uppercase"><img src="assets/images/icon-arrow-previous.svg" width="30" class="me-3" alt="Previous"><span>Previous</span></a>
                 </div>
                 <div class="col-4 text-center">
                     <a href="index.html#referenzen"><img src="assets/images/icon-home.svg" height="15" alt="Referenzen"></a>
                 </div>
                 <div class="col-4 text-end">
-                    <a href="referenz-cm.html" class="link-primary link-next text-uppercase">Next<img src="assets/images/icon-arrow-next.svg" width="30" class="ms-3" alt="Next"></a>
+                    <a href="referenz-cm.html" class="link-primary link-next text-uppercase"><span>Next</span><img src="assets/images/icon-arrow-next.svg" width="30" class="ms-3" alt="Next"></a>
                 </div>
             </div>
         </div>
@@ -137,18 +137,18 @@
 
     <section id="kontakt">
         <div class="container py-5">
-            <div class="row d-flex align-items-center py-5">
+            <div class="row py-5">
                 <div class="col-md-8">
-                    <h2>Kontakt</h2>
+                    <h2 class="mb-3">Kontakt</h2>
                     <p class="mb-5 fs-3">
-                        Sie wollen einen ganzheitlichen Auftritt für Ihre Praxis?
-                        Vereinbaren Sie einen <strong>kostenlosen Erstberatungstermin</strong> und erzählen Sie mir von Ihren Ideen &amp; Visionen.
+                        Sie wollen einen ganzheitlichen Auftritt für Ihre Praxis?<br>
+                        Vereinbaren Sie einen <i>kostenlosen Erstberatungstermin</i> und erzählen Sie mir von Ihren Ideen &amp; Visionen.<br>
                         Ich freue mich, von Ihnen zu hören.
                     </p>
                     <a href="tel:+4917664236557" class="btn btn-outline-secondary d-block d-md-inline-block mb-3 mb-md-0 me-md-3">Anrufen</a>
                     <a href="mailto:mail@katharinawoellner.com" class="btn btn-outline-secondary d-block d-md-inline-block">E-Mail</a>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 py-2 text-center">
                     <img src="assets/images/kw-portrait.png" width="210" height="210" class="img-fluid mt-5 mt-md-0" loading="lazy" alt="Portrait">
                 </div>
             </div>
@@ -198,9 +198,9 @@ jQuery(document).ready(function() {
     jQuery('.carousel').swipe({
         swipe: function(event, direction) {
             if (direction === 'left') {
-                $(this).carousel('next');
+                jQuery(this).carousel('next');
             } else if(direction === 'right') {
-                $(this).carousel('prev');
+                jQuery(this).carousel('prev');
             }
         }
     });
