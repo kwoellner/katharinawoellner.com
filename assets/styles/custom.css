@@ -696,7 +696,7 @@ nav.navbar .navbar-brand span {
 
 #vorteile ul {
     padding-left: 1.25rem;
-    list-style-image: url('../images/checkmark.svg')
+    list-style-image: url('../images/icon-checkmark.svg')
 }
 
 #vorteile ul > li {
