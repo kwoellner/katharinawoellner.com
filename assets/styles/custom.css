@@ -753,27 +753,35 @@ nav.navbar .navbar-brand span {
 }
 
 #referenzen .col-md-6 a {
+    cursor: pointer;
     display: block;
     overflow: hidden;
 }
 
 #referenzen div.overlay {
+    cursor: pointer;
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(104, 126, 142, 0.5);
     color: white;
     text-align: center;
-    z-index: 1;
 }
 
 #referenzen .col-md-6:hover div.overlay {
     display: flex;
+}
+
+#referenzen .col-md-6 div.overlay a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 #referenzen .col-md-6:hover img {
