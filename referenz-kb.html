@@ -182,41 +182,6 @@
 </footer>
 
 <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="vendor/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<script>
-jQuery(document).ready(function() {
-    jQuery('.nav-link').click(function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        const divId = jQuery(this).attr('href');
-        const offset = 50;
-        jQuery('html, body').animate({
-            scrollTop: jQuery(divId).offset().top - offset
-        }, 100);
-        const menuToggle = document.getElementById('navbar-collapse');
-        if (menuToggle.classList.contains('show')) {
-            const bsCollapse = new bootstrap.Collapse(menuToggle);
-            bsCollapse.toggle();
-        }
-    });
-
-    jQuery('#accordion').on('show.bs.collapse', function(event) {
-        const src = $(event.target).attr('data-src');
-        jQuery('#prozess img').attr('src', src);
-    });
-
-    jQuery('.carousel').swipe({
-        swipe: function(event, direction) {
-            if (direction === 'left') {
-                $(this).carousel('next');
-            } else if(direction === 'right') {
-                $(this).carousel('prev');
-            }
-        }
-    });
-});
-</script>
 </body>
 </html>
