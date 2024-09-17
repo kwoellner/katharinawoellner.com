@@ -367,7 +367,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-5">
                     <h5 class="text-center text-uppercase">Branding</h5>
                     <a href="#collapse-leistungen-branding" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-leistungen-branding"></a>
-                    <ul id="collapse-leistungen-branding" class="collapse mt-3 lh-lg text-center text-lg-start list-unstyled">
+                    <ul id="collapse-leistungen-branding" class="collapse mt-3 ps-0 ps-lg-3 lh-lg text-center text-lg-start list-unstyled">
                         <li>Analyse &amp; Strategie</li>
                         <li>Namensentwicklung</li>
                         <li>Logodesign</li>
@@ -381,7 +381,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-5">
                     <h5 class="text-center text-uppercase">Printdesign</h5>
                     <a href="#collapse-leistungen-printdesign" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-leistungen-printdesign"></a>
-                    <ul id="collapse-leistungen-printdesign" class="collapse mt-3 lh-lg text-center text-lg-start list-unstyled">
+                    <ul id="collapse-leistungen-printdesign" class="collapse mt-3 ps-0 ps-lg-3 lh-lg text-center text-lg-start list-unstyled">
                         <li>Visitenkarte</li>
                         <li>Terminkärtchen</li>
                         <li>Briefbogen</li>
@@ -398,7 +398,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-5">
                     <h5 class="text-center text-uppercase">Grafikdesign</h5>
                     <a href="#collapse-leistungen-grafikdesign" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-leistungen-grafikdesign"></a>
-                    <ul id="collapse-leistungen-grafikdesign" class="collapse mt-3 lh-lg text-center text-lg-start list-unstyled">
+                    <ul id="collapse-leistungen-grafikdesign" class="collapse mt-3 ps-0 ps-lg-3 lh-lg text-center text-lg-start list-unstyled">
                         <li>Beschilderung</li>
                         <li>Praxisleitsystem</li>
                         <li>Icongestaltung</li>
@@ -409,7 +409,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-5">
                     <h5 class="text-center text-uppercase">Webdesign</h5>
                     <a href="#collapse-leistungen-webdesign" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-leistungen-webdesign"></a>
-                    <ul id="collapse-leistungen-webdesign" class="collapse mt-3 lh-lg text-center text-lg-start list-unstyled">
+                    <ul id="collapse-leistungen-webdesign" class="collapse mt-3 ps-0 ps-lg-3 lh-lg text-center text-lg-start list-unstyled">
                         <li>Domainbranding</li>
                         <li>Onepager</li>
                         <li>Mehrseitige Websites</li>
@@ -421,7 +421,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-5">
                     <h5 class="text-center text-uppercase">Fotografie</h5>
                     <a href="#collapse-leistungen-fotografie" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-leistungen-fotografie"></a>
-                    <ul id="collapse-leistungen-fotografie" class="collapse mt-3 lh-lg text-center text-lg-start list-unstyled">
+                    <ul id="collapse-leistungen-fotografie" class="collapse mt-3 ps-0 ps-lg-3 lh-lg text-center text-lg-start list-unstyled">
                         <li>Interioraufnahmen</li>
                         <li>Stockbildrecherche</li>
                         <li>Bildbearbeitung</li>
@@ -430,7 +430,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-5">
                     <h5 class="text-center text-uppercase">Support</h5>
                     <a href="#collapse-leistungen-support" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-leistungen-support"></a>
-                    <ul id="collapse-leistungen-support" class="collapse mt-3 lh-lg text-center text-lg-start list-unstyled">
+                    <ul id="collapse-leistungen-support" class="collapse mt-3 ps-0 ps-lg-3 lh-lg text-center text-lg-start list-unstyled">
                         <li>Drucknachbestellung</li>
                         <li>Website-Wartung</li>
                         <li>Google Unternehmen</li>
@@ -553,6 +553,17 @@
 <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script>
 jQuery(document).ready(function() {
+    console.log(window);
+    if (window.location.hash) {
+        const divId = window.location.hash;
+        console.log(divId);
+        const offset = 50;
+        console.log(jQuery(divId).offset().top);
+        jQuery('html, body').animate({
+            scrollTop: jQuery(divId).offset().top - offset
+        }, 100);
+    }
+
     jQuery('.nav-link').click(function(e) {
         e.preventDefault();
         e.stopPropagation();

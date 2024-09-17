@@ -183,9 +183,9 @@ h3 {
     margin-right: auto;
     margin-bottom: 0;
     max-width: 640px;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 200;
-    line-height: 45px;
+    line-height: 33px;
     text-align: center;
 }
 
@@ -651,9 +651,9 @@ nav.navbar .navbar-brand span {
 }
 
 #welcome .fs-1 {
-    font-size: 30px !important;
+    font-size: 22px !important;
     font-weight: 200;
-    line-height: 45px;
+    line-height: 35px;
 }
 
 @media (min-width: 992px) {
@@ -695,7 +695,7 @@ nav.navbar .navbar-brand span {
 }
 
 #vorteile ul {
-    padding-left: 1.25rem;
+    padding-left: 1.5rem;
     list-style-image: url('../images/icon-checkmark.svg')
 }
 
@@ -706,6 +706,7 @@ nav.navbar .navbar-brand span {
 #vorteile ul > li::marker {
     font-size: 2.25rem;
     line-height: 16px;
+    text-align: left;
 }
 
 #vorteile .col-lg-6 p,
@@ -862,6 +863,13 @@ nav.navbar .navbar-brand span {
     line-height: 35px;
 }
 
+@media (min-width: 992px) {
+    #leistungen .fs-5 {
+        font-size: 18px !important;
+        line-height: 30px;
+    }
+}
+
 #leistungen a[role="button"] {
     display: block;
     text-align: center;
@@ -886,7 +894,6 @@ nav.navbar .navbar-brand span {
 }
 
 #leistungen ul {
-    padding-left: 1rem;
     hyphens: auto;
 }
 
