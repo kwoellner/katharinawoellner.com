@@ -832,6 +832,10 @@ nav.navbar .navbar-brand span {
     top: -40px;
 }
 
+#testimonials .carousel {
+    touch-action: pan-y;
+}
+
 #testimonials .carousel-indicators {
     bottom: -10px;
 }
