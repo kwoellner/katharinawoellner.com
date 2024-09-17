@@ -851,6 +851,11 @@ nav.navbar .navbar-brand span {
     background-color: #687e8e;
 }
 
+#testimonials .carousel-control-prev-icon,
+#testimonials .carousel-control-next-icon {
+    display: none;
+}
+
 #leistungen .fs-5 {
     font-size: 20px !important;
     font-weight: 300;
