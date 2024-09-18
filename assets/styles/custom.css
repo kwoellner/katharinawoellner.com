@@ -868,15 +868,15 @@ nav.navbar .navbar-brand span {
 }
 
 #leistungen .fs-5 {
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: 300;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 @media (min-width: 992px) {
     #leistungen .fs-5 {
-        font-size: 18px !important;
-        line-height: 30px;
+        font-size: 20px !important;
+        line-height: 35px;
     }
 }
 
