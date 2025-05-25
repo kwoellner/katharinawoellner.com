@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Schlichtes Logo-, Corporate- & Website-Design für psychologisches Institut</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Das schlichte Logo-Design einer modernen Hausarztpraxis, basierend auf einem Kreissegment, prägt das gesamte Corporate Design. Besonders kreativ wird das Logo als Muster auf einer gläsernen Trennwand im Wartebereich eingesetzt, was dem Raum eine individuelle Note und professionelle Ausstrahlung verleiht. Entdecken Sie, wie auch Ihre Praxis von maßgeschneidertem Design profitieren kann – jetzt mehr erfahren.">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="Katharina Wöllner | Medical Branding + Design für Ärzte, medizinische Praxen & Unternehmen im Gesundheitswesen">
+    <meta property="og:description" content="Als erfahrene Kommunikationsdesignerin und Art Directorin mit Fokus auf Medical Branding und Design, bin ich darauf spezialisiert, hochwertige visuelle Identitäten und Designlösungen für Ärzte, medizinische Praxen und Unternehmen im Gesundheitswesen zu entwickeln. Von der individuellen Gestaltung Ihres Logos bis hin zur Schaffung eines konsistenten Corporate Designs und intuitiven Webseiten, biete ich einen ganzheitlichen Ansatz, der die Einzigartigkeit Ihrer medizinische Marke herausstellt, Vertrauen aufbaut und Ihre Fachkompetenz unterstreicht.">
+    <meta property="og:image" content="https://www.katharinawoellner.com/assets/images/katharina-woellner-fb.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.katharinawoellner.com">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/custom.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <!--link rel="manifest" href="manifest.json"-->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body data-bs-spy="scroll" data-bs-offset="0" data-bs-target=".navbar-collapse" tabindex="0">
 
+<article>
+    <section id="header">
+        <div class="container-fluid p-0 overflow-hidden">
+            <nav id="navbar" class="navbar navbar-light position-relative">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand mt-3">
+                        <img src="assets/images/kw-logo.svg" height="40" alt="Logo">
+                        <span class="d-none d-md-block">Katharina Wöllner<br>Medical Branding + Design</span>
+                    </a>
+                    <div class="d-flex justify-content-end mt-3">
+                        <button class="navbar-toggler d-flex align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <input type="checkbox" id="hamburger" />
+                            <label for="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </button>
+                        <div id="navbar-collapse" class="collapse navbar-collapse">
+                            <div class="navbar-nav navbar-nav-scroll">
+                                <a class="nav-link" href="index.html#header">Home</a>
+                                <a class="nav-link" href="index.html#referenzen">Referenzen</a>
+                                <a class="nav-link" href="index.html#leistungen">Leistungen</a>
+                                <a class="nav-link" href="index.html#prozess">Prozess</a>
+                                <a class="nav-link mb-4" href="index.html#kontakt">Kontakt</a>
+                                <div class="d-flex flex-column flex-md-row">
+                                    <a class="btn btn-outline-secondary d-block mt-4 mt-lg-5 mb-3 me-0 me-md-2" href="tel:+4917664236557">Anrufen</a>
+                                    <a class="btn btn-outline-secondary btn-arrow d-block mt-md-4 mt-lg-5 mb-3 ms-0 ms-md-2" href="mailto:mail@katharinawoellner.com" target="_blank">E-Mail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="referenz">
+        <div class="container">
+            <div class="row mt-3 mt-lg-5 mb-5">
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-visitenkarte.jpg" width="2560" height="1600" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row m-lg-5">
+                <div class="col-12 mt-lg-5">
+                    <h3>Summe übertrifft Einzelteil</h3>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 mt-5">
+                    <p class="mb-30">
+                        <strong>Dr. med. Jochen Schröder</strong><br>
+                        Facharzt für Innere Medizin
+                    </p>
+                    <p class="mb-30">
+                        <strong>Fotografie:</strong><br>
+                        Hagen Wolf
+                    </p>
+                    <p class="mb-0">
+                        <strong>Programmierung:</strong><br>
+                        Seleos GmbH
+                    </p>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <p class="mb-5">Durch ein schlichtes Logo-Design, basierend auf einem Kreissegment, erhält die moderne Hausarztpraxis ihre einzigartige Identität. Dieses zentrale Element findet sich in verschiedenen Anwendungsformen des Corporate Designs wieder. Besonders hervorzuheben ist die kreative Nutzung des Logos als Muster auf einer gläsernen Trennwand im Wartebereich der Praxis. Diese gestalterische Entscheidung schafft nicht nur eine ansprechende Visualität, sondern verleiht dem Raum auch eine individuelle Note und eine professionelle Ausstrahlung.</p>
+                    <p class="mb-0"><img src="assets/images/icon-arrow-right.svg" width="5" class="me-2" alt=""><a href="https://www.hausarzt-schroeder.de" target="_blank" class="link-underline-secondary">Website besuchen</a></p>
+                </div>
+            </div>
+            <div class="row my-5 g-4">
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-logo.jpg" width="2560" height="1829" class="img-fluid" loading="lazy" alt="">
+                </div>
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-briefbogen.jpg" width="2560" height="1920" class="img-fluid" loading="lazy" alt="">
+                </div>
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-portrait.jpg" width="2560" height="1312" class="img-fluid" loading="lazy" alt="">
+                </div>
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-wunschzettel.jpg" width="2560" height="1518" class="img-fluid" loading="lazy" alt="">
+                </div>
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-website-mobil.jpg" width="2560" height="1706" class="img-fluid" loading="lazy" alt="">
+                </div>
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-icons.jpg" width="2650" height="568" class="img-fluid" loading="lazy" alt="">
+                </div>
+                <div class="col-12">
+                    <img src="assets/images/referenzen/js/js-praxis-fensterbeklebung.jpg" width="2560" height="2989" class="img-fluid" loading="lazy" alt="">
+                </div>
+            </div>
+            <div class="row my-5 py-4">
+                <div class="col-4">
+                    <a href="referenz-ap.html" class="link-primary link-previous text-uppercase"><img src="assets/images/icon-arrow-previous.svg" width="30" class="me-3" alt="Previous"><span>Previous</span></a>
+                </div>
+                <div class="col-4 text-center">
+                    <a href="index.html#referenzen"><img src="assets/images/icon-home.svg" height="15" alt="Referenzen"></a>
+                </div>
+                <div class="col-4 text-end">
+                    <a href="referenz-kb.html" class="link-primary link-next text-uppercase"><span>Next</span><img src="assets/images/icon-arrow-next.svg" width="30" class="ms-3" alt="Next"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <div class="container py-5">
+            <div class="row pt-5">
+                <div class="col-md-4 py-2 text-center order-md-last">
+                    <img src="assets/images/kw-portrait.png" width="210" height="210" class="img-fluid mb-5 mb-md-0 mt-md-0" loading="lazy" alt="Portrait">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-3">Kontakt</h2>
+                    <p class="mb-5 fs-3">
+                        Sie wollen auch etwas Besonderes für Ihre Praxis?<br>
+                        Vereinbaren Sie einen <i>kostenlosen Erstberatungstermin</i> und erzählen Sie mir von Ihren Ideen &amp; Visionen.<br>
+                        Ich freue mich, von Ihnen zu hören.
+                    </p>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-12">
+                    <a href="tel:+4917664236557" class="btn btn-outline-secondary d-block d-md-inline-block mb-3 mb-md-0 me-md-3">Anrufen</a>
+                    <a href="mailto:mail@katharinawoellner.com" class="btn btn-outline-secondary d-block d-md-inline-block">E-Mail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+
+<footer>
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-md-6 d-none d-md-block">
+                <p class="my-0 text-uppercase">&copy; Katharina Wöllner</p>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <p class="my-0"><a href="impressum.html">Impressum</a> / <a href="datenschutz.html">Datenschutz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
